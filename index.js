@@ -8,9 +8,10 @@ console.log(
 const isAdult = Number(age);
 console.log(isAdult >= 18);
 const language2 = language.toLowerCase();
-console.log(language2.toLowerCase());
+console.log(language2);
 console.log(language2 === "javascript");
 console.log(email.includes("@"));
 const at = email.indexOf("@");
 console.log(at);
 console.log(email.slice(0, at));
+console.log(email.slice(at + 1, email.length));
